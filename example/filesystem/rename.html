@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title></title>
+</head>
+<body>
+	<form action="rename.php" method="POST">
+		<input type="hidden" name="dir" value="<?php echo $dir;?>">
+		<input type="hidden" name="filedir" value="<?php echo $filedir;?>">
+		<input type="hidden" name="filename" value="<?php echo $filename;?>">
+		新名字：<input type="text" name="newname" value="">
+		<input type="submit" name="submit" value='修改'>
+	</form>
+</body>
+</html>
