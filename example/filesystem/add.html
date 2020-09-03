@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title></title>
+</head>
+<body>
+	<h1>新增文件的目录：<?php echo $c_dir;?></h1>
+	<form action="create.php" method="POST">
+		<input type="hidden" name="dir" value="<?php echo $dir;?>">
+		<input type="hidden" name="filedir" value="<?php echo $c_dir;?>">
+		<input type="text" name="filename" value="">
+		文件夹<input type="radio" name="type" value="1">
+		文件<input type="radio" name="type" value="2">
+		<input type="submit" name="submit" value='创建'>
+	</form>
+</body>
+</html>
