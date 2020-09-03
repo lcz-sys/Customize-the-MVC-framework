@@ -1,0 +1,4 @@
+bgColor=#00FFFF
+
+[customer]
+pageTitle = 'Customer Info'

@@ -1,0 +1,6 @@
+Class Test{
+
+	public static main(String[] args){
+		
+	}
+}
